@@ -1,0 +1,43 @@
+{   
+    "app_name":"hostel",
+    "app_version":"1.0.0",
+    "app_url":"https://sleepy-caverns-28290.herokuapp.com",
+    "app_base": "/hostel",
+    "api":{
+        "_url":"/api",
+        "_version":"/1.0",
+        "_port":3090
+    },
+    "init_port":80890,
+    "query_limit": 10,
+    "api_query_limit": 1000,
+    "mongodb_local":{
+        "host":"127.0.0.1",
+        "username":"",
+        "password":"",
+        "port":"27017",
+        "db":"hostels",
+        "collections":{
+            "users":"user_collection",
+            "hostels":"hostels_collection"
+        }
+    },
+    "mongodb":{
+        "host":"ds123790.mlab.com",
+        "username":"heroku_4gshc1l0",
+        "password":"hl47k1p8vnv20e20gs3m1m2ihc",
+        "port":"23790",
+        "db":"heroku_4gshc1l0",
+        "collections":{
+            "users":"user_collection",
+            "hostels":"hostels_collection"
+        }
+    },
+    "redis":{
+        "host":"127.0.0.1",
+        "username":"",
+        "password":"",
+        "port":"6379",
+        "db":"hostels"        
+    }
+} 

@@ -1,0 +1,5 @@
+server/config
+server/node_modules
+node_modules/
+server/package-lock.json
+server/package.json
